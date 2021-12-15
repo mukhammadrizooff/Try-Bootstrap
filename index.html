@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Bootstrap Page</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+      <div class="container">
+        <a href="" class="navbar-brand">Mukhammadrizooff</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#learn" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#questions" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#instrructors" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- About Section -->
+    <section
+      class="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-start text-sm-start"
+    >
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div class="py-4">
+            <h1><span class="text-danger"> I'm Rizo </span> <span class="text-warning">Glad to see you</span></h1>
+            <p class="lead my-4">
+                I am a software developer - that is, a person who creates software
+                entirely. I help with the design or writing of the software, usually I
+                am the one who manages the project or just does the basic work. Like
+                most software developers, I am a leading software engineer.
+            </p>
+            <a href="https://mukhammadrizooff.github.io/Portfolio_Template/" class="btn btn-success btn-lg">My Portfolio</a>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-sm-block"
+            src="/images/works1.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Card Section -->
+    <section class="p-5 big-banner">
+      <div class="container">
+        <div class="row text-center justify-content-between">
+          <div class="card bg-secondary" style="width: 18rem" >
+            <img
+              src="https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+              class="card-img-top col"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-info"><dt>Software</dt></h5>
+              <p class="card-text">
+                <dt>Some quick example text to build on the card title and make up
+                the bulk of the card's content.</dt>
+              </p>
+              <a href="#" class="btn btn-success">See Project</a>
+            </div>
+          </div>
+
+          <div class="card bg-secondary" style="width: 18rem">
+            <img
+              src="https://images.pexels.com/photos/117729/pexels-photo-117729.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              class="card-img-top col img-rounded"
+              alt="Cinque Terre"
+            />
+            <div class="card-body">
+              <h5 class="card-title text-info"><dt>Hardware</dt></h5>
+              <p class="card-text ">
+                <dt>Some quick example text to build on the card title and make up
+                the bulk of the card's content.</dt>
+              </p>
+              <a href="#" class="btn btn-success">See Project</a>
+            </div>
+          </div>
+
+          <div class="card bg-secondary" style="width: 18rem">
+            <img
+              src="https://images.pexels.com/photos/205316/pexels-photo-205316.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+              class="card-img-top col"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title text-info"><dt>Office</dt></h5>
+              <p class="card-text">
+                <dt>Some quick example text to build on the card title and make up
+                the bulk of the card's content.</dt>
+              </p>
+              <a href="#" class="btn btn-success">See Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bottom section -->
+
+    <section class="bg-dark text-light p-5">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="mb-3 mb-md-0">Contact me!</h3>
+
+          <div class="input-group input-text">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter Email"
+              pattern="[^@\s]+@[^@\s]+\.[^@\s]+"
+              aria-label="Enter Email"
+              aria-describedby="button-addon2"
+            />
+            <button
+              class="btn btn-info btn-lg"
+              type="button"
+              id="button-addon2"
+            >
+              Send
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
