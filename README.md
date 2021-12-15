@@ -31,7 +31,7 @@
 - On GitHub.com, navigate to the main page of the repository. Above the list of files, click Download icon and Code.
 - Copy for git clone
 - Type git clone, and then paste the URL you copied earlier.
-`$ git clone https://github.com/mukhammadrizooff/Try-Bootstrap.git`
+                `$ git clone https://github.com/mukhammadrizooff/Try-Bootstrap.git`
 - Finally press Enter 
 
 ## Show your support
